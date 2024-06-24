@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #fff; */
+}
+
+.container{
+    margin: 0 15rem 0 15rem; 
+    padding-top: 4rem;
+    overflow-y: auto;
+
+    overflow-x: hidden;
+    font-family: sans-serif;
+    
+ }
+ .heading {
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+    font-size: larger;
+ }
+ .heading div,.heading button{
+    font-size: larger;
+    border-radius: 20px;
+ }
+ .heading button{
+    padding: 10px;
+ }
+ .about{
+    padding-top: 4rem;
+    font-size: 40px;
+ }
+ .casestudy{
+    padding-top: 4rem;
+ }
+ .img-container :hover {
+    filter: drop-shadow(0 0 10px #3a3a3a);
+    transform: scale(1.03);
+    transition: 1s;
+ }
+ .img-container ,.ai-img{
+    height: 80%;
+    width: 80%;
+    margin: 3rem;
+ }
+ .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ .ai-image {
+display: contents;
+gap: 10px;
+ }
+ .header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+ }
+ .sub-heading{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .description{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ .case-study-link{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+ }
+.case-study-link a, .links a{
+    border-radius: 30px;
+    border: solid rgb(90, 90, 88) 1px;
+    padding: 10px;
+    text-decoration: none;
+    /* background-color: #211f1f; */
+ }
+ .case-study-link :hover , .links :hover {
+    filter: drop-shadow(0 0 10px #242222);
+    transform: scale(1.03);
+    transition: 1s;
+ }
+.sub-heading{
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+.links{
+margin-top: 2rem;
+margin-bottom: 4rem;
+flex-wrap: wrap;
+}
+.lists{
+display: flex;
+justify-content: space-between;
+margin-top: 2rem;
+font-size: 20px;
+flex-wrap: wrap;
+}
+.contact{
+margin-top: 2rem;
+margin-bottom: 2rem;
+font-size: 25px;
+}
+.address{
+margin-bottom: 4rem;
+}
